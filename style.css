@@ -1,0 +1,40 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'baloo';
+	background: slategray;
+}
+#container {
+	margin: 0 auto;
+	text-align: center;
+}
+input {
+	margin: 10px 10px;
+	padding: 5px 5px;
+	border: solid black 3px;
+}
+.label-wrapper {
+	text-decoration: underline;
+}
+
+#fetch-btn {
+	font-family: 'Baloo';
+	font-size: 20px;
+	margin-top: 10px;
+	padding: 9px 13px;
+	background: green;
+	border-radius: 10px;
+	border: none;
+	color: white;
+	cursor: pointer;
+}
+#fetch-btn:hover {
+	box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+	transform: translateY(-5px);
+}
+#randomImg {
+	display: flex;
+	align-items: center;
+	margin: 10px auto;
+	border: groove 20px;
+}
